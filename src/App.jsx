@@ -1,15 +1,6 @@
 const contentNode = document.getElementById('contents');
 
-class BorderWrap extends React.Component {
-    render() {
-        const borderedStyle = {border: "1px solid silver"};
-        return (
-            <div style={borderedStyle}>
-                {this.props.children}
-            </div>
-        );
-    }
-}
+
 class IssueFilter extends React.Component {
     render() {
         return (
@@ -33,17 +24,14 @@ class IssueRow extends React.Component {
 }
 
 
-//  IssueRow.propTypes = {
-//     issue_id: React.PropTypes.number.isRequired,
-//     issue_title: React.PropTypes.String.isRequired
-// };
+
 
 
 class IssueTable extends React.Component {
     render() {
         const borderedStyle = {border: "1px solid silver", padding: 6};
         return (
-            <table style={BorderWrap = borderedStyle}>
+            <table style={{borderCollapse: "collapse"}}>
                     <thead>
                     <tr>
                         <th style={borderedStyle}>Id</th>

@@ -10,32 +10,8 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 var contentNode = document.getElementById('contents');
 
-var BorderWrap = function (_React$Component) {
-    _inherits(BorderWrap, _React$Component);
-
-    function BorderWrap() {
-        _classCallCheck(this, BorderWrap);
-
-        return _possibleConstructorReturn(this, (BorderWrap.__proto__ || Object.getPrototypeOf(BorderWrap)).apply(this, arguments));
-    }
-
-    _createClass(BorderWrap, [{
-        key: "render",
-        value: function render() {
-            var borderedStyle = { border: "1px solid silver" };
-            return React.createElement(
-                "div",
-                { style: borderedStyle },
-                this.props.children
-            );
-        }
-    }]);
-
-    return BorderWrap;
-}(React.Component);
-
-var IssueFilter = function (_React$Component2) {
-    _inherits(IssueFilter, _React$Component2);
+var IssueFilter = function (_React$Component) {
+    _inherits(IssueFilter, _React$Component);
 
     function IssueFilter() {
         _classCallCheck(this, IssueFilter);
@@ -57,8 +33,8 @@ var IssueFilter = function (_React$Component2) {
     return IssueFilter;
 }(React.Component);
 
-var IssueRow = function (_React$Component3) {
-    _inherits(IssueRow, _React$Component3);
+var IssueRow = function (_React$Component2) {
+    _inherits(IssueRow, _React$Component2);
 
     function IssueRow() {
         _classCallCheck(this, IssueRow);
@@ -90,14 +66,8 @@ var IssueRow = function (_React$Component3) {
     return IssueRow;
 }(React.Component);
 
-//  IssueRow.propTypes = {
-//     issue_id: React.PropTypes.number.isRequired,
-//     issue_title: React.PropTypes.String.isRequired
-// };
-
-
-var IssueTable = function (_React$Component4) {
-    _inherits(IssueTable, _React$Component4);
+var IssueTable = function (_React$Component3) {
+    _inherits(IssueTable, _React$Component3);
 
     function IssueTable() {
         _classCallCheck(this, IssueTable);
@@ -111,7 +81,7 @@ var IssueTable = function (_React$Component4) {
             var borderedStyle = { border: "1px solid silver", padding: 6 };
             return React.createElement(
                 "table",
-                { style: BorderWrap = borderedStyle },
+                { style: { borderCollapse: "collapse" } },
                 React.createElement(
                     "thead",
                     null,
@@ -157,8 +127,8 @@ var IssueTable = function (_React$Component4) {
     return IssueTable;
 }(React.Component);
 
-var IssueAdd = function (_React$Component5) {
-    _inherits(IssueAdd, _React$Component5);
+var IssueAdd = function (_React$Component4) {
+    _inherits(IssueAdd, _React$Component4);
 
     function IssueAdd() {
         _classCallCheck(this, IssueAdd);
@@ -180,8 +150,8 @@ var IssueAdd = function (_React$Component5) {
     return IssueAdd;
 }(React.Component);
 
-var IssueList = function (_React$Component6) {
-    _inherits(IssueList, _React$Component6);
+var IssueList = function (_React$Component5) {
+    _inherits(IssueList, _React$Component5);
 
     function IssueList() {
         _classCallCheck(this, IssueList);
