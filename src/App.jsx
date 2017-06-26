@@ -11,6 +11,7 @@ class IssueFilter extends React.Component {
 
 class IssueRow extends React.Component {
     render() {
+        console.log("rendering..");
         const issue = this.props.issue;
         return (
             <tr>
@@ -24,6 +25,7 @@ class IssueRow extends React.Component {
             </tr>
 
         )
+
     }
 }
 
@@ -73,13 +75,34 @@ const issues = [
 ];
 
 class IssueList extends React.Component {
+    constructor(){
+        super();
+        this.state = { issues: issues };
+
+        setTimeout(this.createTestIssue.bind(this), 2000);
+    }
+
+    createIssue(newIssue){
+        const newIssues = this.state.issues.slice();
+        newIssue.id = this.state.issues.length + 1;
+        newIssues.push(newIssue);
+        this.setState({ issues: newIssues});
+    }
+
+    createTestIssue(){
+        this.createIssue({
+            status: 'New' , owner: 'Pieta', created: new Date(),
+            title: 'Completion date should be optional',
+        });
+    }
+
     render() {
         return (
             <div>
                 <h1>Issue Tracker</h1>
                 <IssueFilter />
                 <hr/>
-                <IssueTable issues={issues} />
+                <IssueTable issues={this.state.issues} />
                 <hr/>
                 <IssueAdd />
             </div>
