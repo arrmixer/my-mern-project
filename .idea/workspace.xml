@@ -2,12 +2,607 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="535de25b-02d6-4074-b3a6-74d3214ef0b7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/lib/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/_cof.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/_fix-re-wks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/_for-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/_iter-call.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/_iterators.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/_math-log1p.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/_meta.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/_object-forced-pam.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/_object-keys-internal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/_object-keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/_own-keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/_parse-float.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/_parse-int.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/_task.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/_uid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/es6.date.to-json.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/es6.math.atanh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/es6.number.is-nan.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/es6.number.max-safe-integer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/es6.number.to-precision.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/es6.object.to-string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/es6.regexp.constructor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/es6.string.big.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/es6.string.bold.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/es6.string.ends-with.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/es6.typed.uint32-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/es7.array.includes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/es7.math.isubh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/es7.object.define-setter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/es7.object.get-own-property-descriptors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/es7.set.to-json.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/es7.string.at.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/es7.symbol.async-iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/library/modules/web.immediate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_a-function.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_a-number-value.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_add-to-unscopables.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_an-instance.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_an-object.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_array-copy-within.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_array-fill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_array-from-iterable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_array-includes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_array-methods.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_array-reduce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_array-species-constructor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_array-species-create.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_bind.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_classof.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_cof.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_collection-strong.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_collection-to-json.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_collection-weak.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_collection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_create-property.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_ctx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_date-to-primitive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_defined.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_descriptors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_dom-create.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_entry-virtual.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_enum-bug-keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_enum-keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_export.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_fails-is-regexp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_fails.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_fix-re-wks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_flags.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_for-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_has.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_hide.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_ie8-dom-define.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_inherit-if-required.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_invoke.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_iobject.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_is-array-iter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_is-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_is-integer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_is-object.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_is-regexp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_iter-call.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_iter-create.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_iter-define.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_iter-detect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_iter-step.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_iterators.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_keyof.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_library.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_math-expm1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_math-log1p.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_math-sign.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_meta.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_metadata.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_microtask.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_object-assign.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_object-create.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_object-define.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_object-dp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_object-dps.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_object-forced-pam.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_object-gopd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_object-gopn-ext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_object-gopn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_object-gops.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_object-gpo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_object-keys-internal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_object-keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_object-pie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_object-sap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_object-to-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_parse-float.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_parse-int.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_partial.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_path.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_property-desc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_redefine-all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_redefine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_replacer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_same-value.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_set-proto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_set-species.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_set-to-string-tag.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_shared-key.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_shared.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_species-constructor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_strict-method.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_string-at.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_string-context.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_string-html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_string-pad.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_string-repeat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_string-trim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_string-ws.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_task.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_to-index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_to-integer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_to-iobject.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_to-length.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_to-object.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_to-primitive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_typed-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_typed-buffer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_typed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_uid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_wks-define.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_wks-ext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/_wks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/core.delay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/core.dict.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/core.function.part.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/core.get-iterator-method.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/core.get-iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/core.is-iterable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/core.number.iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/core.object.classof.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/core.object.define.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/core.object.is-object.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/core.object.make.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/core.regexp.escape.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/core.string.escape-html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/core.string.unescape-html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.array.copy-within.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.array.every.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.array.fill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.array.filter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.array.find-index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.array.find.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.array.for-each.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.array.from.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.array.index-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.array.is-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.array.iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.array.join.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.array.last-index-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.array.map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.array.of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.array.reduce-right.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.array.reduce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.array.slice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.array.some.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.array.sort.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.array.species.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.date.now.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.date.to-iso-string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.date.to-json.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.date.to-primitive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.date.to-string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.function.bind.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.function.has-instance.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.function.name.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.math.acosh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.math.asinh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.math.atanh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.math.cbrt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.math.clz32.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.math.cosh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.math.expm1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.math.fround.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.math.hypot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.math.imul.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.math.log10.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.math.log1p.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.math.log2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.math.sign.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.math.sinh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.math.tanh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.math.trunc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.number.constructor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.number.epsilon.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.number.is-finite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.number.is-integer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.number.is-nan.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.number.is-safe-integer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.number.max-safe-integer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.number.min-safe-integer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.number.parse-float.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.number.parse-int.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.number.to-fixed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.number.to-precision.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.assign.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.create.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.define-properties.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.define-property.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.freeze.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.get-own-property-descriptor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.get-own-property-names.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.get-prototype-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.is-extensible.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.is-frozen.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.is-sealed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.prevent-extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.seal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.set-prototype-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.object.to-string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.parse-float.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.parse-int.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.promise.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.reflect.apply.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.reflect.construct.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.reflect.define-property.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.reflect.delete-property.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.reflect.enumerate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.reflect.get-own-property-descriptor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.reflect.get-prototype-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.reflect.get.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.reflect.has.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.reflect.is-extensible.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.reflect.own-keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.reflect.prevent-extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.reflect.set-prototype-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.reflect.set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.regexp.constructor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.regexp.flags.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.regexp.match.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.regexp.replace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.regexp.search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.regexp.split.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.regexp.to-string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.string.anchor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.string.big.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.string.blink.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.string.bold.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.string.code-point-at.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.string.ends-with.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.string.fixed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.string.fontcolor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.string.fontsize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.string.includes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.string.italics.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.string.iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.string.link.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.string.raw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.string.repeat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.string.small.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.string.starts-with.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.string.strike.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.string.sub.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.string.sup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.string.trim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.typed.array-buffer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.typed.data-view.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.typed.float32-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.typed.float64-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.typed.int16-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.typed.int32-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.typed.int8-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.typed.uint16-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.typed.uint32-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.typed.uint8-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.typed.uint8-clamped-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.weak-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es6.weak-set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.array.includes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.asap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.error.is-error.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.map.to-json.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.math.iaddh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.math.imulh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.math.isubh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.math.umulh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.object.define-getter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.object.define-setter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.object.entries.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.object.enumerable-entries.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.object.enumerable-keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.object.enumerable-values.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.object.get-own-property-descriptors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.object.lookup-getter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.object.lookup-setter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.object.values.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.observable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.reflect.define-metadata.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.reflect.delete-metadata.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.reflect.get-metadata-keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.reflect.get-metadata.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.reflect.get-own-metadata-keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.reflect.get-own-metadata.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.reflect.has-metadata.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.reflect.has-own-metadata.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.reflect.metadata.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.set.to-json.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.string.at.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.string.match-all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.string.pad-end.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.string.pad-start.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.string.trim-left.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.string.trim-right.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.symbol.async-iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.symbol.observable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/es7.system.global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/library/_add-to-unscopables.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/library/_collection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/library/_export.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/library/_library.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/library/_path.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/library/_redefine-all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/library/_redefine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/library/_set-species.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/library/es6.date.to-primitive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/library/es6.date.to-string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/library/es6.function.name.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/library/es6.number.constructor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/library/es6.object.to-string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/library/es6.regexp.flags.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/library/es6.regexp.match.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/library/es6.regexp.replace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/library/es6.regexp.search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/library/es6.regexp.split.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/library/es6.regexp.to-string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/library/web.dom.iterable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/web.dom.iterable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/web.immediate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/core-js/modules/web.timers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/regenerator-runtime/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/regenerator-runtime/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/regenerator-runtime/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/regenerator-runtime/path.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/lib/browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/lib/cache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/lib/node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/_.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/concat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/copy-within.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/entries.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/every.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/fill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/filter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/find-index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/find.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/for-each.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/from.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/includes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/index-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/is-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/join.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/last-index-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/pop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/push.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/reduce-right.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/reduce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/reverse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/shift.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/slice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/some.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/sort.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/splice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/unshift.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/values.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/virtual/copy-within.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/virtual/entries.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/virtual/every.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/virtual/fill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/virtual/filter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/virtual/find-index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/virtual/find.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/virtual/for-each.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/virtual/includes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/virtual/index-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/virtual/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/virtual/iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/virtual/join.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/virtual/keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/virtual/last-index-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/virtual/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/virtual/reduce-right.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/virtual/reduce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/virtual/slice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/virtual/some.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/virtual/sort.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/array/virtual/values.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/asap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/clear-immediate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/date/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/date/now.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/date/to-iso-string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/date/to-json.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/date/to-primitive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/date/to-string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/delay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/dict.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/error/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/error/is-error.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/get-iterator-method.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/get-iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/is-iterable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/json/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/json/stringify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/math/asinh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/math/atanh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/math/cbrt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/math/clz32.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/math/cosh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/math/expm1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/math/fround.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/math/hypot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/math/iaddh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/math/imul.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/math/imulh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/math/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/math/isubh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/math/log10.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/math/log1p.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/math/log2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/math/sign.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/math/sinh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/math/tanh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/math/trunc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/math/umulh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/number/constructor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/number/epsilon.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/number/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/number/is-finite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/number/is-integer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/number/is-nan.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/number/is-safe-integer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/number/iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/number/max-safe-integer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/number/min-safe-integer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/number/parse-float.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/number/parse-int.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/number/to-fixed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/number/to-precision.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/number/virtual/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/number/virtual/iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/number/virtual/to-fixed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/number/virtual/to-precision.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/assign.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/classof.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/create.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/define-getter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/define-properties.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/define-property.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/define-setter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/define.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/entries.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/freeze.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/get-own-property-descriptor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/get-own-property-descriptors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/get-own-property-names.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/get-own-property-symbols.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/get-prototype-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/is-extensible.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/is-frozen.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/is-object.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/is-sealed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/lookup-getter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/lookup-setter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/make.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/prevent-extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/seal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/set-prototype-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/object/values.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/observable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/parse-float.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/parse-int.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/promise.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/regexp/constructor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/regexp/escape.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/regexp/flags.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/regexp/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/regexp/match.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/regexp/replace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/regexp/search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/regexp/split.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/regexp/to-string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/set-immediate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/set-interval.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/set-timeout.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/anchor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/at.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/big.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/blink.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/bold.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/code-point-at.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/escape-html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/fixed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/fontcolor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/fontsize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/from-code-point.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/italics.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/link.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/match-all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/pad-end.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/pad-start.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/raw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/repeat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/small.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/starts-with.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/strike.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/sub.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/sup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/trim-end.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/trim-left.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/trim-right.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/trim-start.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/trim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/unescape-html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/virtual/at.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/virtual/big.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/virtual/blink.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/virtual/fontcolor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/virtual/fontsize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/virtual/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/virtual/iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/virtual/match-all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/virtual/pad-start.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/virtual/repeat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/virtual/small.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/virtual/strike.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/virtual/sup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/virtual/trim-end.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/string/virtual/trim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/typed/array-buffer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/typed/data-view.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/typed/float32-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/typed/float64-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/typed/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/typed/int16-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/typed/int32-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/typed/int8-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/typed/uint16-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/typed/uint32-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/typed/uint8-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/typed/uint8-clamped-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/weak-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/fn/weak-set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/node_modules/core-js/shim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/babel-cli/node_modules/babel-register/package.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.jsx" afterPath="$PROJECT_DIR$/src/App.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/App.js" afterPath="$PROJECT_DIR$/static/App.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,11 +630,9 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
+            <state relative-caret-position="135">
               <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-              <folding>
-                <marker date="1498661173000" expanded="true" signature="711:771" ph="{&quot;express&quot;: &quot;^4.15.3&quot;...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,9 +644,6 @@
               <caret line="186" column="20" lean-forward="false" selection-start-line="186" selection-start-column="20" selection-end-line="186" selection-end-column="20" />
               <folding>
                 <marker date="1498652603000" expanded="true" signature="7826:7940" ph="{...}" />
-                <marker date="1498652603000" expanded="true" signature="7826:7946" ph="{&quot;key&quot;: &quot;render&quot;...}" />
-                <marker date="1498652603000" expanded="true" signature="7826:7947" ph="[...]" />
-                <marker date="1498652603000" expanded="true" signature="7826:7974" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -69,11 +659,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="705">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -82,8 +682,8 @@
       <file leaf-file-name="App.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="96" column="30" lean-forward="false" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
+            <state relative-caret-position="1590">
+              <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -132,6 +732,7 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/App.jsx" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -188,6 +789,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -216,8 +819,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,6 +830,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="add_unversioned_files" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -344,36 +946,49 @@
       <workItem from="1498406970948" duration="4760000" />
       <workItem from="1498435181876" duration="2869000" />
       <workItem from="1498608710116" duration="2943000" />
-      <workItem from="1498644810804" duration="5174000" />
+      <workItem from="1498644810804" duration="5425000" />
+      <workItem from="1498665006744" duration="336000" />
+      <workItem from="1498665924564" duration="125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45859000" />
+    <option name="totallyTimeSpent" value="46571000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="522" y="23" width="758" height="722" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29308006" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24926254" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -413,9 +1028,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-          <folding>
-            <marker date="1498661173000" expanded="true" signature="711:771" ph="{&quot;express&quot;: &quot;^4.15.3&quot;...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -425,9 +1038,6 @@
           <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
           <folding>
             <marker date="1498652603000" expanded="true" signature="7826:7940" ph="{...}" />
-            <marker date="1498652603000" expanded="true" signature="7826:7946" ph="{&quot;key&quot;: &quot;render&quot;...}" />
-            <marker date="1498652603000" expanded="true" signature="7826:7947" ph="[...]" />
-            <marker date="1498652603000" expanded="true" signature="7826:7974" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -468,9 +1078,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-          <folding>
-            <marker date="1498661173000" expanded="true" signature="711:771" ph="{&quot;express&quot;: &quot;^4.15.3&quot;...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -480,9 +1088,6 @@
           <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
           <folding>
             <marker date="1498652603000" expanded="true" signature="7826:7940" ph="{...}" />
-            <marker date="1498652603000" expanded="true" signature="7826:7946" ph="{&quot;key&quot;: &quot;render&quot;...}" />
-            <marker date="1498652603000" expanded="true" signature="7826:7947" ph="[...]" />
-            <marker date="1498652603000" expanded="true" signature="7826:7974" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -523,9 +1128,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-          <folding>
-            <marker date="1498661173000" expanded="true" signature="711:771" ph="{&quot;express&quot;: &quot;^4.15.3&quot;...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -535,9 +1138,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1498652603000" expanded="true" signature="7826:7940" ph="{...}" />
-            <marker date="1498652603000" expanded="true" signature="7826:7946" ph="{&quot;key&quot;: &quot;render&quot;...}" />
-            <marker date="1498652603000" expanded="true" signature="7826:7947" ph="[...]" />
-            <marker date="1498652603000" expanded="true" signature="7826:7974" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -580,9 +1180,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1498652603000" expanded="true" signature="7826:7940" ph="{...}" />
-            <marker date="1498652603000" expanded="true" signature="7826:7946" ph="{&quot;key&quot;: &quot;render&quot;...}" />
-            <marker date="1498652603000" expanded="true" signature="7826:7947" ph="[...]" />
-            <marker date="1498652603000" expanded="true" signature="7826:7974" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -615,9 +1212,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="57" />
-          <folding>
-            <marker date="1498661173000" expanded="true" signature="711:771" ph="{&quot;express&quot;: &quot;^4.15.3&quot;...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -657,9 +1252,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="57" />
-          <folding>
-            <marker date="1498661173000" expanded="true" signature="711:771" ph="{&quot;express&quot;: &quot;^4.15.3&quot;...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -675,9 +1268,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-          <folding>
-            <marker date="1498661173000" expanded="true" signature="711:771" ph="{&quot;express&quot;: &quot;^4.15.3&quot;...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -718,9 +1309,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <marker date="1498661173000" expanded="true" signature="711:771" ph="{&quot;express&quot;: &quot;^4.15.3&quot;...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -757,18 +1346,7 @@
           <caret line="186" column="20" lean-forward="false" selection-start-line="186" selection-start-column="20" selection-end-line="186" selection-end-column="20" />
           <folding>
             <marker date="1498652603000" expanded="true" signature="7826:7940" ph="{...}" />
-            <marker date="1498652603000" expanded="true" signature="7826:7946" ph="{&quot;key&quot;: &quot;render&quot;...}" />
-            <marker date="1498652603000" expanded="true" signature="7826:7947" ph="[...]" />
-            <marker date="1498652603000" expanded="true" signature="7826:7974" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,28 +1357,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-          <folding>
-            <marker date="1498661173000" expanded="true" signature="711:771" ph="{&quot;express&quot;: &quot;^4.15.3&quot;...}" />
-          </folding>
+        <state relative-caret-position="705">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="96" column="30" lean-forward="false" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
+        <state relative-caret-position="1590">
+          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
