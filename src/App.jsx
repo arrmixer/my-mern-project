@@ -11,19 +11,19 @@ class IssueFilter extends React.Component {
 
 const IssueRow = (props) => (
     <tr>
-        <td>{issue.id}</td>
-        <td>{issue.status}</td>
-        <td>{issue.owner}</td>
-        <td>{issue.created.toDateString()}</td>
-        <td>{issue.effort}</td>
-        <td>{issue.completionDate ? issue.completionDate.toDateString() : " "}</td>
-        <td>{issue.title}</td>
+        <td>{props.issue.id}</td>
+        <td>{props.issue.status}</td>
+        <td>{props.issue.owner}</td>
+        <td>{props.issue.created.toDateString()}</td>
+        <td>{props.issue.effort}</td>
+        <td>{props.issue.completionDate ? props.issue.completionDate.toDateString() : " "}</td>
+        <td>{props.issue.title}</td>
     </tr>
 )
 
 function IssueTable(props)
 {
-    const issueRows = this.props.issues.map(issue => <IssueRow key={issue.id} issue={issue}/>)
+    const issueRows = props.issues.map(issue => <IssueRow key={issue.id} issue={issue}/>)
     return (
         <table className="bordered-table">
             <thead>
@@ -37,9 +37,7 @@ function IssueTable(props)
                 <th>Title</th>
             </tr>
             </thead>
-            <tbody>
-            {issueRows}
-            </tbody>
+            <tbody>{issueRows}</tbody>
         </table>
     );
 }
@@ -84,8 +82,6 @@ class IssueList extends React.Component {
         this.state = { issues: [] };
 
         this.createIssue = this.createIssue.bind(this);
-
-
     }
 
     componentDidMount(){
@@ -93,16 +89,46 @@ class IssueList extends React.Component {
     }
 
     loadData() {
-        setTimeout(() => {
-            this.setState({issues: issues});
-        } , 500   );
+        fetch('/api/issues').then(response =>
+        response.json()
+        ).then(data => {
+           console.log("Total count of records:", data._metadata.total_count);
+           data.records.forEach(issue => {
+               issue.created = new Date(issue.created);
+               if (issue.completionDate){
+                   issue.completionDate = new Date(issue.completionDate);
+               }
+           });
+            this.setState({ issues: data.records });
+        }).catch(err => {
+            console.log(err);
+        });
     }
 
     createIssue(newIssue){
-        const newIssues = this.state.issues.slice();
-        newIssue.id = this.state.issues.length + 1;
-        newIssues.push(newIssue);
-        this.setState({ issues: newIssues});
+      fetch('/api/issues', {
+          method:'POST',
+          headers: {'Content-Type':'application/json'},
+          body:JSON.stringify(newIssue),
+      }).then(response => {
+          if(response.ok){
+              response.json().then(updatedIssue => {
+                  updatedIssue.created = new Date(updatedIssue.created);
+                  if(updatedIssue.completionDate){
+                      updatedIssue.completionDate = new Data(updatedIssue.completionDate);
+                  }
+                  const newIssues = this.state.issues.concat(updatedIssue);
+                  this.setState({issues: newIssues});
+              });
+              }else{
+                response.json().then(error => {
+                    alert("Failed to add issue: " + error.message);
+                });
+          }
+
+          }).catch(err => {
+            alert("Error in sedning data to server: " + err.message);
+      });
     }
 
     render() {
