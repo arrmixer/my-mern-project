@@ -1,3 +1,6 @@
+import React from 'react';
+import 'whatwg-fetch';
+
 import IssueFilter from './IssueFilter.jsx';
 import IssueAdd from './IssueAdd.jsx';
 
