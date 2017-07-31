@@ -16,17 +16,19 @@ var _bodyParser2 = _interopRequireDefault(_bodyParser);
 
 var _mongodb = require('mongodb');
 
+var _path = require('path');
+
+var _path2 = _interopRequireDefault(_path);
+
 var _issue = require('./issue.js');
 
 var _issue2 = _interopRequireDefault(_issue);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-/**
- * Created by Angel on 6/19/17.
- */
-
-const app = (0, _express2.default)();
+const app = (0, _express2.default)(); /**
+                                       * Created by Angel on 6/19/17.
+                                       */
 
 _sourceMapSupport2.default.install();
 app.use(_express2.default.static('static'));
@@ -35,9 +37,38 @@ app.use(_bodyParser2.default.json());
 let db;
 
 app.get('/api/issues', (req, res) => {
-  db.collection('issues').find().toArray().then(issues => {
+  const filter = {};
+  if (req.query.status) filter.status = req.query.status;
+  if (req.query.effort_lte || req.query.effort_gte) filter.effort = {};
+  if (req.query.effort_lte) filter.effort.$lte = parseInt(req.query.effort_lte, 10);
+  if (req.query.effort_gte) filter.effort.$gte = parseInt(req.query.effort_gte, 10);
+
+  db.collection('issues').find(filter).toArray().then(issues => {
     const metadata = { total_count: issues.length };
     res.json({ _metadata: metadata, records: issues });
+  }).catch(error => {
+    console.log(error);
+    res.status(500).json({ message: `Internal Server Error: ${error}` });
+  });
+});
+
+app.get('/api/issues/:id', (req, res) => {
+  let issueId;
+  try {
+    issueId = new _mongodb.ObjectID(req.params.id);
+  } catch (error) {
+    res.status(422).json({
+      message: `Invalid issue ID format: ${error}`
+    });
+    return;
+  }
+
+  db.collection('issues').find({ _id: issueId }).limit(1).next().then(issue => {
+    if (!issue) {
+      res.status(404).json({ message: `No such issue: ${issueId}` });
+    } else {
+      res.json(issue);
+    }
   }).catch(error => {
     console.log(error);
     res.status(500).json({ message: `Internal Server Error: ${error}` });
@@ -67,6 +98,10 @@ app.post('/api/issues', (req, res) => {
 });
 
 app.set('json spaces', 4);
+
+app.get('*', (req, res) => {
+  res.sendFile(_path2.default.resolve('static/index.html'));
+});
 
 _mongodb.MongoClient.connect('mongodb://localhost/issuetracker').then(connection => {
   db = connection;

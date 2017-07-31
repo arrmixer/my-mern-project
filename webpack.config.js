@@ -2,26 +2,32 @@
  * Created by Angel on 7/4/17.
  */
 const webpack = require('webpack');
+const path = require('path');
 
 module.exports = {
   entry: {
     app: './src/App.jsx',
-    vendor: ['react', 'react-dom', 'whatwg-fetch', 'babel-polyfill'],
+    vendor: ['react', 'react-dom', 'whatwg-fetch', 'babel-polyfill', 'react-router'],
   },
   output: {
-    path: './static',
-    filename: 'app.bundle.js',
+    path: path.join(__dirname, './static'),
+    filename: '[name].bundle.js',
   },
   plugins: [
-    new webpack.optimize.CommonsChunkPlugin('vendor', 'vendor.bundle.js'),
+    new webpack.optimize.CommonsChunkPlugin({
+      names: ['app', 'vendor'],
+      minChunks: Infinity,
+    }),
   ],
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.jsx$/,
-        loader: 'babel-loader',
-        query: {
-          presets: ['react', 'es2015'],
+        use: {
+          loader: 'babel-loader',
+          query: {
+            presets: ['react', 'es2015'],
+          },
         },
       },
     ],
@@ -34,6 +40,7 @@ module.exports = {
         target: 'http://localhost:3000',
       },
     },
+    historyApiFallback: true,
   },
   devtool: 'source-map',
 };

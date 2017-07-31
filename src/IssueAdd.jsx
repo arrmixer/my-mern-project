@@ -22,6 +22,7 @@ export default class IssueAdd extends React.Component {
   }
 
   render() {
+    console.log('redering...');
     return (
       <div>
         <form name="issueAdd" onSubmit={this.handleSubmit}>
@@ -33,3 +34,7 @@ export default class IssueAdd extends React.Component {
     );
   }
 }
+
+IssueAdd.propTypes = {
+  createIssue: React.PropTypes.func.isRequired,
+};

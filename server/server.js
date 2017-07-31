@@ -7,7 +7,8 @@ import SourceMapSupport from 'source-map-support';
 import 'babel-polyfill';
 import express from 'express';
 import bodyParser from 'body-parser';
-import { MongoClient } from 'mongodb';
+import { MongoClient, ObjectID } from 'mongodb';
+import path from 'path';
 import Issue from './issue.js';
 
 const app = express();
@@ -20,10 +21,41 @@ app.use(bodyParser.json());
 let db;
 
 app.get('/api/issues', (req, res) => {
-  db.collection('issues').find().toArray().then((issues) => {
+  const filter = {};
+  if (req.query.status) filter.status = req.query.status;
+  if (req.query.effort_lte || req.query.effort_gte) filter.effort = {};
+  if (req.query.effort_lte) filter.effort.$lte = parseInt(req.query.effort_lte, 10);
+  if (req.query.effort_gte) filter.effort.$gte = parseInt(req.query.effort_gte, 10);
+
+  db.collection('issues').find(filter).toArray().then((issues) => {
     const metadata = { total_count: issues.length };
     res.json({ _metadata: metadata, records: issues });
   })
+      .catch((error) => {
+        console.log(error);
+        res.status(500).json({ message: `Internal Server Error: ${error}` });
+      });
+});
+
+app.get('/api/issues/:id', (req, res) => {
+  let issueId;
+  try {
+    issueId = new ObjectID(req.params.id);
+  } catch (error) {
+    res.status(422).json({
+      message: `Invalid issue ID format: ${error}`,
+    });
+    return;
+  }
+
+  db.collection('issues').find({ _id: issueId }).limit(1).next()
+      .then((issue) => {
+        if (!issue) {
+          res.status(404).json({ message: `No such issue: ${issueId}` });
+        } else {
+          res.json(issue);
+        }
+      })
       .catch((error) => {
         console.log(error);
         res.status(500).json({ message: `Internal Server Error: ${error}` });
@@ -56,6 +88,10 @@ app.post('/api/issues', (req, res) => {
 });
 
 app.set('json spaces', 4);
+
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve('static/index.html'));
+});
 
 
 MongoClient.connect('mongodb://localhost/issuetracker').then((connection) => {
