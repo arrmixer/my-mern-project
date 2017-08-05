@@ -38,7 +38,7 @@ export default class DateInput extends React.Component {
   }
 
   displayFormat(date) {
-    return (date != null) ? date.toString() : '';
+    return (date != null) ? date.toDateString() : '';
   }
 
   editFormat(date) {
@@ -76,4 +76,8 @@ DateInput.propTypes = {
   onValidityChange: React.PropTypes.func,
   name: React.PropTypes.string.isRequired,
 };
+
+// DateInput.defaultProps = {
+//   size: '20',
+// };
 

@@ -2,7 +2,6 @@ db = Mongo().getDB('issuetracker');
 db.issues.remove({});
 db.issues.insert([
   {
-    id: 1,
     status: 'Open',
     owner: 'Ravan',
     created: new Date('2016-08-15'),
@@ -11,7 +10,6 @@ db.issues.insert([
     title: 'Error in console when clicking Add',
   },
   {
-    id: 2,
     status: 'Assigned',
     owner: 'Eddie',
     created: new Date('2016-08-16'),

@@ -8,6 +8,7 @@ export default class NumInput extends React.Component {
     this.onChange = this.onChange.bind(this);
   }
 
+
   componentWillReceiveProps(newProps) {
     this.setState({ value: this.format(newProps.value) });
   }
@@ -17,7 +18,7 @@ export default class NumInput extends React.Component {
   }
 
   onChange(e) {
-    if (e.target.value.match(/^d*$/)) {
+    if (e.target.value.match(/^\d*$/)) {
       this.setState({ value: e.target.value });
     }
   }

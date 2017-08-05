@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-export default class IssueFilter extends React.Component { // eslint-disable-line
+export default class IssueFilter extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -90,7 +90,7 @@ export default class IssueFilter extends React.Component { // eslint-disable-lin
         <option value="Closed">Closed</option>
       </select>
       &nbsp;Effort between:
-      <input size={5} value={this.state.effort_gte} onChange={this.onChangeEffortGte}  />
+      <input size={5} value={this.state.effort_gte} onChange={this.onChangeEffortGte} />
       &nbsp;-&nbsp;
         <input size={5} value={this.state.effort_lte} onChange={this.onChangeEffortLte} />
         <button onClick={this.applyFilter}>Apply</button>

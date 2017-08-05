@@ -14,7 +14,6 @@ export default class IssueAdd extends React.Component {
       title: form.title.value,
       status: 'New',
       created: new Date(),
-
     });
         // clear the form for the next input
     form.owner.value = ' ';
@@ -22,7 +21,6 @@ export default class IssueAdd extends React.Component {
   }
 
   render() {
-    console.log('redering...');
     return (
       <div>
         <form name="issueAdd" onSubmit={this.handleSubmit}>
