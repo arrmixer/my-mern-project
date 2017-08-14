@@ -3,17 +3,16 @@
  */
 
 
-import SourceMapSupport from 'source-map-support';
-import 'babel-polyfill';
 import express from 'express';
 import bodyParser from 'body-parser';
-import { MongoClient, ObjectId } from 'mongodb';
-import path from 'path';
+import { ObjectId } from 'mongodb';
+
+import renderedPageRouter from './renderedPageRouter.jsx';
 import Issue from './issue.js';
 
 const app = express();
 
-SourceMapSupport.install();
+
 app.use(express.static('static'));
 app.use(bodyParser.json());
 
@@ -143,20 +142,15 @@ app.delete('/api/issues/:id', (req, res) => {
     res.status(500).json({ message: `Internal Server Error: ${error}` });
   });
 });
-app.set('json spaces', 4);
 
-app.get('*', (req, res) => {
-  res.sendFile(path.resolve('static/index.html'));
-});
+// app.set('json spaces', 4);
+
+app.use('/', renderedPageRouter);
 
 
-MongoClient.connect('mongodb://localhost/issuetracker').then((connection) => {
-  db = connection;
+function setDb(newDb) {
+  db = newDb;
+}
 
-  app.listen(3000, () => {
-    console.log('App started on port 3000');
-  });
-}).catch((error) => {
-  console.log('ERROR: ', error);
-});
+export { app, setDb };
 

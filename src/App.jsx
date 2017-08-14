@@ -1,17 +1,10 @@
 import 'babel-polyfill';
-import ReactDOM from 'react-dom';
 import React from 'react';
-import { Router, Route, Redirect, browserHistory, withRouter } from 'react-router';
 import { Navbar, NavItem, NavDropdown, MenuItem, Nav, Glyphicon } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
-import IssueList from './IssueList.jsx';
-import IssueEdit from './IssueEdit.jsx';
+
 import IssueAddNavItem from './IssueAddNavItem.jsx';
-
-
-const contentNode = document.getElementById('contents');
-const noMatch = () => <p>Page not found</p>;
 
 const Header = () => (
   <Navbar fluid>
@@ -35,7 +28,7 @@ const Header = () => (
   </Navbar>
     );
 
-const App = props => (
+const App = (props) => (
   <div>
     <Header />
     <div className="container-fluid">
@@ -55,23 +48,4 @@ App.propTypes = {
   children: React.PropTypes.object.isRequired,
 };
 
-
-const RoutedApp = () => (
-  <Router history={browserHistory} >
-    <Redirect from="/" to="/issues" />
-    <Route path="/" component={App} >
-      <Route path="/issues" component={withRouter(IssueList)} />
-      <Route path="/issues/:id" component={IssueEdit} />
-      <Route path="*" component={noMatch} />
-    </Route>
-  </Router>
-    );
-
-// Render the app using react-router now
-ReactDOM.render(<RoutedApp />, contentNode);
-
-
-if (module.hot) {
-  module.hot.accept();
-}
-
+export default App;
