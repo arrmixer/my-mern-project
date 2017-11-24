@@ -18,6 +18,7 @@ module.exports = {
       names: ['app', 'vendor'],
       minChunks: Infinity,
     }),
+    new webpack.NamedModulesPlugin(),
   ],
   module: {
     rules: [

@@ -1,51 +1,70 @@
 import 'babel-polyfill';
 import React from 'react';
-import { Navbar, NavItem, NavDropdown, MenuItem, Nav, Glyphicon } from 'react-bootstrap';
-import { LinkContainer } from 'react-router-bootstrap';
+
+import Header from './Header.jsx';
 
 
-import IssueAddNavItem from './IssueAddNavItem.jsx';
+export default class App extends React.Component {
+  static dataFetcher({ urlBase, cookie }) {
+    const headers = cookie ? { headers: { Cookie: cookie } } : null;
+    return fetch(`${urlBase || ''}/api/users/me`, headers).then((response) => {
+      if (!response.ok) return response.json().then(error => Promise.reject(error));
+      return response.json().then(data => ({ App: data }));
+    });
+  }
+  constructor(props, context) {
+    super(props, context);
+    const user = context.initialState.App ? context.initialState.App : {};
+    this.state = {
+      user,
+    };
+    this.onSignin = this.onSignin.bind(this);
+    this.onSignout = this.onSignout.bind(this);
+  }
 
-const Header = () => (
-  <Navbar fluid>
-    <Navbar.Header>
-      <Navbar.Brand>Issue Tracker</Navbar.Brand>
-    </Navbar.Header>
-    <Nav>
-      <LinkContainer to="/issues">
-        <NavItem>Issues</NavItem>
-      </LinkContainer>
-      <LinkContainer to="/reports">
-        <NavItem>Reports</NavItem>
-      </LinkContainer>
-    </Nav>
-    <Nav pullRight>
-      <IssueAddNavItem />
-      <NavDropdown id="user-dropdown" title={<Glyphicon glyph="option-horizontal" />} noCaret>
-        <MenuItem>Logout</MenuItem>
-      </NavDropdown>
-    </Nav>
-  </Navbar>
+  componentDidMount() {
+    App.dataFetcher({ })
+            .then((data) => {
+              const user = data.App;
+              this.setState({ user });
+            });
+  }
+
+
+  onSignin(name) {
+    this.setState({ user: { signedIn: true, name } });
+  }
+
+  onSignout() {
+    this.setState({ user: { signedIn: false, name: '' } });
+  }
+
+  render() {
+    const childrenWithUser = React.Children.map(this.props.children, child =>
+          React.cloneElement(child, { user: this.state.user }),
+      );
+    return (
+      <div>
+        <Header user={this.state.user} onSignin={this.onSignin} onSignout={this.onSignout} />
+        <div className="container-fluid">
+            {childrenWithUser}
+          <hr />
+          <h5>
+            <small>
+                  Full source code available at this <a href="https://github.com/arrmixer/my-mern-project">
+                  GitHub repository</a>.
+              </small></h5>
+        </div>
+      </div>
     );
-
-const App = (props) => (
-  <div>
-    <Header />
-    <div className="container-fluid">
-      {props.children}
-      <hr />
-      <h5>
-        <small>
-            Full source code available at this <a href="https://github.com/arrmixer/my-mern-project" > Github Repository</a>
-        </small>
-      </h5>
-    </div>
-  </div>
-
-);
+  }
+}
 
 App.propTypes = {
   children: React.PropTypes.object.isRequired,
 };
 
-export default App;
+App.contextTypes = {
+    initialState: React.PropTypes.object,
+};
+

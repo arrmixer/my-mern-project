@@ -128,3 +128,5 @@ IssueFilter.propTypes = {
   initFilter: React.PropTypes.object.isRequired,
 };
 
+const test = 23;
+

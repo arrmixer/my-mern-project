@@ -4,12 +4,13 @@ import { Link } from 'react-router';
 import { Button, Glyphicon, Table, Panel, Pagination } from 'react-bootstrap';
 
 import IssueFilter from './IssueFilter.jsx';
-import Toast from './Toast.jsx';
+import withToast from './withToast.jsx';
 
 const IssueRow = (props) => {
   function onDeleteClick() {
     props.deleteIssue(props.issue._id);
   }
+
   return (
     <tr>
       <td>
@@ -23,16 +24,18 @@ const IssueRow = (props) => {
       <td>{props.issue.effort}</td>
       <td>{props.issue.completionDate ? props.issue.completionDate.toDateString() : ' '}</td>
       <td>{props.issue.title}</td>
-      <td>
-        <Button bsSize="xsmall" onClick={onDeleteClick}><Glyphicon glyph="trash" /></Button>
-      </td>
+      {props.deleteIssue ? (
+        <td>
+          <Button bsSize="xsmall" onClick={onDeleteClick}><Glyphicon glyph="trash" /></Button>
+        </td>
+        ) : null}
     </tr>
   );
 };
 
 IssueRow.propTypes = {
   issue: React.PropTypes.object.isRequired,
-  deleteIssue: React.PropTypes.func.isRequired,
+  deleteIssue: React.PropTypes.func,
 };
 
 function IssueTable(props) {
@@ -53,7 +56,7 @@ function IssueTable(props) {
           <th>Effort</th>
           <th>Completion</th>
           <th>Title</th>
-          <th />
+          {props.deleteIssue ? <th /> : null}
         </tr>
       </thead>
       <tbody>{issueRows}</tbody>
@@ -63,12 +66,12 @@ function IssueTable(props) {
 
 IssueTable.propTypes = {
   issues: React.PropTypes.array.isRequired,
-  deleteIssue: React.PropTypes.func.isRequired,
+  deleteIssue: React.PropTypes.func,
 };
 
 const PAGE_SIZE = 10;
 
-export default class IssueList extends React.Component {
+class IssueList extends React.Component {
   static dataFetcher({ urlBase, location }) {
     const query = Object.assign({}, location.query);
     const pageStr = query._page;
@@ -98,17 +101,12 @@ export default class IssueList extends React.Component {
     });
     this.state = {
       issues,
-      toastVisible: false,
-      toastMessage: '',
-      toastType: 'success',
       totalCount: data.metadata.totalCount,
     };
 
 
     this.setFilter = this.setFilter.bind(this);
     this.deleteIssue = this.deleteIssue.bind(this);
-    this.showError = this.showError.bind(this);
-    this.dismissToast = this.dismissToast.bind(this);
     this.selectPage = this.selectPage.bind(this);
   }
 
@@ -138,14 +136,6 @@ export default class IssueList extends React.Component {
     this.props.router.push({ pathname: this.props.location.pathname, query });
   }
 
-  showError(message) {
-    this.setState({ toastVisible: true, toastMessage: message, toastType: 'danger' });
-  }
-
-  dismissToast() {
-    this.setState({ toastVisible: false });
-  }
-
   loadData() {
     IssueList.dataFetcher({ location: this.props.location })
         .then((data) => {
@@ -159,7 +149,7 @@ export default class IssueList extends React.Component {
           this.setState({ issues, totalCount: data.IssueList.metadata.totalCount });
         })
     .catch((err) => {
-      this.showError(`Error in fetching data from server: ${err}`);
+      this.props.showError(`Error in fetching data from server: ${err}`);
     });
   }
 
@@ -167,7 +157,7 @@ export default class IssueList extends React.Component {
   deleteIssue(id) {
     fetch(`/api/issues/${id}`, { method: 'DELETE' }).then((response) => {
       if (!response.ok) {
-        this.showError('Failed to delete issue');
+        this.props.showError('Failed to delete issue');
       } else {
         this.loadData();
       }
@@ -192,12 +182,9 @@ export default class IssueList extends React.Component {
           prev
           boundaryLinks
         />
-        <IssueTable issues={this.state.issues} deleteIssue={this.deleteIssue} />
-        <Toast
-          showing={this.state.toastVisible}
-          message={this.state.toastMessage}
-          onDismiss={this.dismissToast}
-          bsStyle={this.state.toastType}
+        <IssueTable
+          issues={this.state.issues}
+          deleteIssue={this.props.user.signedIn ? this.deleteIssue : null}
         />
       </div>
     );
@@ -207,8 +194,15 @@ export default class IssueList extends React.Component {
 IssueList.propTypes = {
   location: React.PropTypes.object.isRequired,
   router: React.PropTypes.object,
+  showError: React.PropTypes.func.isRequired,
+  user: React.PropTypes.object.isRequired,
 };
 
 IssueList.contextTypes = {
   initialState: React.PropTypes.object,
 };
+
+const IssueListWithToast = withToast(IssueList);
+IssueListWithToast.dataFetcher = IssueList.dataFetcher;
+
+export default IssueListWithToast;

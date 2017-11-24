@@ -4,9 +4,9 @@ import { FormGroup, FormControl, ControlLabel, ButtonToolbar, Button, Panel, For
 
 import NumInput from './NumInput.jsx';
 import DateInput from './DateInput.jsx';
-import Toast from './Toast.jsx';
+import withToast from './withToast.jsx';
 
-export default class IssueEdit extends React.Component {
+class IssueEdit extends React.Component {
   static dataFetcher({ params, urlBase }) {
     return fetch(`${urlBase || ''}/api/issues/${params.id}`)
         .then((response) => {
@@ -41,16 +41,11 @@ export default class IssueEdit extends React.Component {
       issue,
       invalidFields: {},
       showingValidation: false,
-      toastVisible: false,
-      toastMessage: '',
-      toastType: 'success',
+
     };
     this.onChange = this.onChange.bind(this);
     this.onValidityChange = this.onValidityChange.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
-    this.showSuccess = this.showSuccess.bind(this);
-    this.showError = this.showError.bind(this);
-    this.dismissToast = this.dismissToast.bind(this);
   }
 
   componentDidMount() {
@@ -90,15 +85,15 @@ export default class IssueEdit extends React.Component {
             updatedIssue.completionDate = new Date(updatedIssue.completionDate);
           }
           this.setState({ issue: updatedIssue });
-          this.showSuccess('Updated issue successfully.');
+          this.props.showSuccess('Updated issue successfully.');
         });
       } else {
         response.json().then((error) => {
-          this.showError(`Failed to update issue: ${error.message}`);
+          this.props.showError(`Failed to update issue: ${error.message}`);
         });
       }
     }).catch((err) => {
-      this.showError(`Error in ending data to server: ${err.message}`);
+      this.props.showError(`Error in ending data to server: ${err.message}`);
     });
   }
 
@@ -134,17 +129,6 @@ export default class IssueEdit extends React.Component {
                     });
   }
 
-  showSuccess(message) {
-    this.setState({ toastVisible: true, toastMessage: message, toastType: 'success' });
-  }
-
-  showError(message) {
-    this.setState({ toastVisible: true, toastMessage: message, toastType: 'danger' });
-  }
-
-  dismissToast() {
-    this.setState({ toastVisible: false });
-  }
 
   render() {
     const issue = this.state.issue;
@@ -230,7 +214,7 @@ export default class IssueEdit extends React.Component {
           <FormGroup>
             <Col smOffset={3} sm={6}>
               <ButtonToolbar>
-                <Button bsStyle="primary" type="submit">Submit</Button>
+                <Button bsStyle="primary" type="submit" disabled={!this.props.user.signedIn}>Submit</Button>
                 <LinkContainer to="/issues">
                   <Button bsStyle="link">Back</Button>
                 </LinkContainer>
@@ -241,12 +225,6 @@ export default class IssueEdit extends React.Component {
             <Col smOffset={3} sm={0}>{validationMessage}</Col>
           </FormGroup>
         </Form>
-        <Toast
-          showing={this.state.toastVisible}
-          message={this.state.toastMessage}
-          onDismiss={this.dismissToast}
-          bsStyle={this.state.toastType}
-        />
       </Panel>
     );
   }
@@ -255,8 +233,17 @@ export default class IssueEdit extends React.Component {
 
 IssueEdit.propTypes = {
   params: React.PropTypes.object.isRequired,
+  showSuccess: React.PropTypes.func.isRequired,
+  showError: React.PropTypes.func.isRequired,
+  user: React.PropTypes.object.isRequired,
 };
 
 IssueEdit.contextTypes = {
   initialState: React.PropTypes.object,
 };
+
+const IssueEditWithToast = withToast(IssueEdit);
+// copying static functions before export of HOC with orginal Component IssueEdit
+IssueEditWithToast.dataFetcher = IssueEdit.dataFetcher;
+
+export default IssueEditWithToast;
